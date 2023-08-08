@@ -1,0 +1,7 @@
+h1,h2,p {
+    text-align: center;
+}
+div {
+    width: 300px;
+    background-color: rgba(160,82,45,.83);
+}
