@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../Learn HTML (Building a Cat Photo App FCC)"
+		}
+	],
+	"settings": {
+		"workbench.colorTheme": "Monokai",
+		"workbench.preferredHighContrastLightColorTheme": "Visual Studio Light"
+	}
+}
