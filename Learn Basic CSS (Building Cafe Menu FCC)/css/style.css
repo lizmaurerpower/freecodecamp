@@ -1,7 +1,89 @@
-h1,h2,p {
+h1,h2,h3,p {
     text-align: center;
+    color: white;
+}
+.established {
+    font-style: italic;
+}
+.menu {
+    width: 82%;
+    background-color: rgba(160,82,45,.83);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+}
+body {
+    background-image: url(https://lh3.googleusercontent.com/pw/AIL4fc9svha3gO9KajlPKwRaim18Qm5QhMwjgRDOA_VhzqM-HDw3XbbMW3o5qhgmBgIaYthlAeM3M1AelCGwtcTwXykQKDDnqNx4rd6JfAJrGVyt1g-Glyk=w2400);
+    font-family: Georgia, 'Times New Roman', Times, serif; padding: 20px;
 }
 div {
-    width: 300px;
-    background-color: rgba(160,82,45,.83);
+    width: 80%; 
+    background-color:
+    rgba(160,82,45,.83);
+    margin: 0 auto 0 auto;
+}
+article {
+    font-size: 18px;
+}
+.flavor, .food {
+    text-align: left;
+    width: 75%;
+}
+.price {
+    text-align: right;
+    width: 25%;
+}
+.item p {
+    display: inline-block;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+.menu {
+    padding: 20px;
+    max-width: 700px;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 20px;
+}
+.hr {
+    background-color: white;
+    border-width: .01px;
+    border-color: white;
+}
+.hr2, .hr3 {
+    background-color: white;
+    width: 145px;
+    border-width: .01px;
+}
+.bottom-line {
+    margin-top: 15px;
+}
+footer {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+a {
+    color: white;
+}
+a:visited {
+    color: silver;
+}
+a:hover {
+    color: burlywood;
+}
+a:active {
+    color: darkgoldenrod;
+}
+.address {
+    margin-bottom: 5px;
+}
+img {
+    
 }
