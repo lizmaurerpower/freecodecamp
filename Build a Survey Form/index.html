@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="styles.css"/>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Beauty Routine Survey</title>
+  </head>
+  <body>
+    <h1 id="title">Beauty Routine Survey</h1>
+    <p id="description">Please answer the questions below to help our staff understand your skin care needs.</p>
+    <form id='survey-form'>
+      <p>
+        <label id='name-label'>
+          <input id='name' type='text' placeholder="John Smith"required>Fist/Last Name</>
+        </label>
+      </p>
+      <p>
+        <label id='email-label'>
+          <input id='email' type='email' placeholder="johnsmith@gmail.com"required>Email address</>
+          </label>
+      </p>
+      <p>
+        <label id='number-label'>
+          <input id='number' type='number' min="10" max="100" placeholder="25">Age</>
+          </label>
+      </p>
+      <p>
+        <div>
+          <legend>Which beauty category do you spend the most money on?</legend>
+          <label id='dropdown-label'>
+        </div>
+        <div>
+          <select id='dropdown'>
+            <option value=''>(Select One)</option>
+            <option value='1'>Oral Care</option>
+            <option value='2'>Skin Care</option>
+            <option value='3'>Sun Care</option>
+            <option value='4'>Hair Care</option>
+            <option value='5'>Cosmetics</option>
+            <option value='6'>Body Care</option>
+            <option value='7'>Perfumes</option>
+          </select>
+          </label>  
+        </div>
+      </p>
+      <p>
+       <div> 
+       <legend>How often do you use OTC beauty products?
+      </legend> 
+      </div>
+      <div>
+      <label for='multiple-day'>
+      <input value='multiple-day' id='multiple-day' type='radio' name='routine' class='inline'>Multiple times per day</>
+      </label>
+      <label for='daily'>
+      <input value='daily' id='daily' type='radio' name='routine' class='inline'>Once daily</>
+      </label>
+      <label for='few-days'>
+      <input value='few-days' id='few-days' type='radio' name='routine' class='inline'>Every few days</>
+      </label>
+      <label for='weekly'>
+      <input value='weekly' id='weekly' type='radio' name='routine' class='inline'>Once a week</>
+      </label>
+      <label for='infrequent'>
+      <input value='infrequent' id='infrequent' type='radio' name='routine' class='inline'>Less than once a week</>
+      </label>
+      </div>
+      </p>
+      <p>
+        <div>
+          <legend>What brands do you currently use most often?
+          </legend>
+        </div>
+        <div>
+          <input value='LOreal' id='LOreal' type='checkbox'><label for='LOreal'>L'Oreal</>
+          </label>
+          <input value='Estee-Lauder' id='Estee-Lauder' type='checkbox'><label for='Estee-Lauder'>Estee Lauder</>
+          </label>
+          <input value='Gillette' id='Gillette' type='checkbox'><label for='LOreal'>Gillette</>
+          </label>
+          <input value='Nivea ' id='Nivea ' type='checkbox'><label for='LOreal'>Nivea </>
+          </label>
+          <input value='Clinique' id='Clinique' type='checkbox'><label for='LOreal'>Clinique</>
+          </label>
+          <input value='Dove' id='Dove' type='checkbox'><label for='LOreal'>Dove</>
+          </label>
+        </div>
+      </p>  
+      <p>
+        <div>
+        <label for='beautiful'>What makes you feel beautiful?
+          </label>
+        </div>
+            <textarea id='beautiful' name='beautiful' rows='3' columns='30' placeholder='I feel beautiful when...'></textarea>
+      </p>
+      <input id='submit' type='Submit' value='Submit'</>
+    </form>
+  </body>
+</html>
